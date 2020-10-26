@@ -72,9 +72,16 @@ public class Magpie3
         {
             response = "Welcome, General Kenobi";
         }
+        //mad made by Joe Hall
         else if (findKeyword(statement, "mad") >= 0)
         {
             response = "Madness is like gravity; all it takes is a push.";
+        }
+        //politics made by Joe Hall
+        else if (findKeyword(statement, "politics") >= 0)
+        {
+            response = "I'm just a simple chatbot, what do I know about politics?";
+                        
         }
         else
         {
@@ -195,7 +202,7 @@ public class Magpie3
             response = "You don't say.";
         }
 
-		return response;
-	}
+        return response;
+    }
 
 }
