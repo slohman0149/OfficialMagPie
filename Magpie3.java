@@ -46,8 +46,8 @@ public class Magpie3
             response = "Tell me more about your family.";
         }
         //Books was made by Sydney Lohman
-        else if (statement.indexOf("book") >=0 
-                    || statement.indexOf("story") >= 0){
+        else if (findKeyword(statement,"book") >=0 
+                    || findKeyword(statement,"story") >= 0){
             response = "What is your favorite story about?";
         }
         //Pets was made by Joe Hall
