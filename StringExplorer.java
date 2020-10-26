@@ -30,8 +30,7 @@ public class StringExplorer
         System.out.println ("sample.toLowerCase() = " + lowerCase);
         System.out.println ("After toLowerCase(), sample = " + sample);
         
-        //  Edited by Sydney Lohman
-
+        //  Try other methods here:
 
     }
 
