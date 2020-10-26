@@ -67,6 +67,15 @@ public class Magpie3
         {
             response = "She sounds nice!";
         }
+        //Hello There made by Joe Hall
+        else if (findKeyword(statement, "Hello There") >= 0)
+        {
+            response = "Welcome, General Kenobi";
+        }
+        else if (findKeyword(statement, "mad") >= 0)
+        {
+            response = "Madness is like gravity; all it takes is a push.";
+        }
         else
         {
             response = getRandomResponse();
