@@ -59,6 +59,7 @@ public class Magpie
         {
             response = "No one cared about me until I put on the mask.";
         }
+        //Mrs. O'Connell made by Joe Hall
         else if (statement.indexOf("Mrs. O'Connell") >= 0)
         {
             response = "She sounds nice!";
