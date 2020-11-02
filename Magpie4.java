@@ -91,7 +91,43 @@ public class Magpie4
         else if (findKeyword(statement, "Hello There") >= 0)
         {
             response = "Welcome, General Kenobi";
+        } 
+        
+        //mean joke made by Zach V
+        else if (findKeyword(statement, "mean joke") >= 0)
+        {
+            response = "Why did the blind man turn down the job?"+
+            "Answer: He couldn't see himself doing it.";
         }
+        
+        //bad joke made by Zach V
+        else if (findKeyword(statement, "bad joke") >= 0)
+        {
+            response = "What do you call a fake noodle?"+
+            "Answer: An impasta!";
+        }
+        
+        //different joke made by Zach V
+        else if (findKeyword(statement, "different joke") >= 0)
+        {
+            response = "What's a ghost's favorite fruit?"+
+            "Answer: Boo-Berries.";
+        }
+        
+        //another joke made by Zach V
+        else if (findKeyword(statement, "another joke") >= 0)
+        {
+            response = "Why did the scarecrow win an award?"+
+            "Answer: Because he was outstanding in his field!.";
+        }
+        
+        //joke made by Zach V
+        else if (findKeyword(statement, "joke") >= 0)
+        {
+            response = "Where do polar bears vote? "+
+            "Answer: They vote in the North Pole.";
+        } 
+
 
         else
         {
@@ -272,6 +308,7 @@ public class Magpie4
         {
             response = "You don't say.";
         }
+        
 
 		return response;
 	}
