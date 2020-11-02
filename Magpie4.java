@@ -92,6 +92,12 @@ public class Magpie4
         {
             response = "Welcome, General Kenobi";
         } 
+        //dad joke made by Zach V
+	     else if (findKeyword(statement, "dad joke") >= 0)
+        {
+            response = "When does a joke turn into a dad joke?"+
+            "Answer: When it becomes apparent.";
+        }
         
         //mean joke made by Zach V
         else if (findKeyword(statement, "mean joke") >= 0)
